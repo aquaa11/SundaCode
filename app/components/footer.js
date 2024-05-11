@@ -10,7 +10,7 @@ function Footer() {
           SundaCode
         </a>
         <Image
-          src="/svg/logo-sundacode.svg"
+          src="./svg/logo-sundacode.svg"
           alt="sundacode-logo"
           width={17}
           height={17}
