@@ -1,0 +1,9 @@
+@import url('../../globals.css');
+
+.active {
+    background-color: var(--secondary);
+    color: var(--prmary);
+}
+.highlight {
+    background-color: yellow;
+}
