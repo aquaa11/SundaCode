@@ -37,11 +37,11 @@ function HandleDataKamus({ newDataKamus }) {
             key={data.id}
             className={` ${
               detailStates[index]
-                ? "bg-primary text-secondary rounded-md p-6 "
-                : "rounded bg-secondary p-4 font-medium "
+                ? "bg-primary text-secondary rounded-md p-6"
+                : "rounded bg-secondary p-4 font-medium"
             }  text-left  w-full flex flex-col gap-2 ${
               detailStates[index] &&
-              " fixed -translate-x-1/2 border border-secondary left-1/2 top-28 w-[98%] h-[80%] max-w-screen-xl z-10 before:contents-[''] before:fixed before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-screen before:h-screen before:bg-black before:opacity-50 before:-z-10"
+              " fixed -translate-x-1/2 border border-secondary left-1/2 top-28 w-[98%] h-[85%] max-w-screen-xl z-10 before:contents-[''] before:fixed before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-screen before:h-screen before:bg-black before:opacity-50 before:-z-10"
             }`}
           >
             {detailStates[index] && <div></div>}
@@ -49,7 +49,7 @@ function HandleDataKamus({ newDataKamus }) {
               {detailStates[index] ? (
                 <div className="text-pink text-xl font-semibold">
                   <p>
-                    ID : <span className=" text-secondary">{data.id}</span>
+                    ID : <span className="text-secondary">{data.id}</span>
                     <br />
                     Kosakata :{" "}
                     <span className="text-secondary">
@@ -104,7 +104,7 @@ function HandleDataKamus({ newDataKamus }) {
               <ul
                 className={`${
                   !detailStates[index] && "text-sm line-clamp-2 md:line-clamp-3"
-                }font-light overflow-hidden`}
+                } font-light`}
               >
                 {data.note.map((item, index) => (
                   <li key={index}>
