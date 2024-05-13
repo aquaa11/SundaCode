@@ -17,9 +17,7 @@ const SearchInput = ({ setNewDataKamus,setCurrentPage }) => {
       return dataKamus.filter(
         (data) =>
           data.id.includes(inputValue) ||
-          data.kosakata.includes(inputValue) ||
-          data.pengertian.includes(inputValue) ||
-          data.note.includes(inputValue)
+          data.kosakata.includes(inputValue)
       );
     } else {
       return dataKamus;
