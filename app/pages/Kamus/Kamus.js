@@ -59,6 +59,7 @@ export default function Kamus() {
           <SearchInput
             setNewDataKamus={setNewDataKamus}
             newDataKamus={newDataKamus}
+              setCurrentPage={setCurrentPage}
           />
         </div>
         <div className="bg-primary w-full py-3">
