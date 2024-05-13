@@ -8,7 +8,7 @@ import {
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
-const SearchInput = ({ setNewDataKamus }) => {
+const SearchInput = ({ setNewDataKamus,setCurrentPage }) => {
   const [isSort, setSort] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [isSortChecked, setSortChecked] = useState(false);
@@ -37,6 +37,7 @@ const SearchInput = ({ setNewDataKamus }) => {
   }, [filteredData, isSortChecked]);
 
   useEffect(() => {
+    setCurrentPage(1)
     setNewDataKamus(sortedData);
   }, [sortedData, setNewDataKamus]);
 
