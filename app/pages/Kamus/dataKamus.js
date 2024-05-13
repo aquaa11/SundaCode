@@ -635,4 +635,3 @@ export const dataKamus = [
   },
 ];
 export const dataKamusLength = dataKamus.length;
-console.log(dataKamusLength);

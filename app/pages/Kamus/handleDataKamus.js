@@ -37,18 +37,18 @@ function HandleDataKamus({ newDataKamus }) {
             key={data.id}
             className={` ${
               detailStates[index]
-                ? "bg-primary text-secondary rounded-md p-6 "
+                ? "bg-primary text-secondary rounded-md p-6 overflow-y-scroll overflow-x-hidden"
                 : "rounded bg-secondary p-4 font-medium "
             }  text-left  w-full flex flex-col gap-2 ${
               detailStates[index] &&
-              " fixed -translate-x-1/2 border border-secondary left-1/2 top-28 w-[98%] h-[85%] max-w-screen-xl z-10 before:contents-[''] before:fixed before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-screen before:h-screen before:bg-black before:opacity-50 before:-z-10"
+              " fixed -translate-x-1/2 border border-secondary left-1/2  top-20 w-[98%] h-[85%] max-w-screen-xl z-10 before:contents-[''] before:fixed before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-screen before:h-screen before:bg-black before:opacity-50 before:-z-10"
             }`}
           >
             {detailStates[index] && <div></div>}
             <div className="flex items-center">
               {detailStates[index] ? (
-                <div className="text-pink text-xl font-semibold">
-                  <p>
+                <div >
+                  <p className="text-pink text-xl font-bold">
                     ID : <span className="text-secondary">{data.id}</span>
                     <br />
                     Kosakata :{" "}
@@ -93,7 +93,7 @@ function HandleDataKamus({ newDataKamus }) {
               <span
                 className={`${
                   !detailStates[index] && "line-clamp-2"
-                }  mb-3 min-h-11`}
+                }  mb-3 min-h-11 md:min-h-12`}
               >
                 {data.pengertian}
               </span>
@@ -103,7 +103,7 @@ function HandleDataKamus({ newDataKamus }) {
               )}
               <ul
                 className={`${
-                  !detailStates[index] && "text-sm line-clamp-2 md:line-clamp-3"
+                  !detailStates[index] && "text-sm line-clamp-1 md:line-clamp-2"
                 } font-light`}
               >
                 {data.note.map((item, index) => (
@@ -117,8 +117,8 @@ function HandleDataKamus({ newDataKamus }) {
             {data.kode ? (
               <div
                 className={`${
-                  !detailStates[index] && "max-h-[4.6rem]"
-                } rounded-md overflow-hidden`}
+                  detailStates[index] && "max-h-[2rem]"
+                } rounded-md`}
               >
                 {detailStates[index] && (
                   <h1 className="py-3 font-bold text-lg text-pink">

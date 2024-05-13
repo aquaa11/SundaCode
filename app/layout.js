@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       </head>
       <body
         className={
-          lexend.className + ` bg-[url('../public/svg/bg-purple-2.svg')]`
+          lexend.className + `overflow-x-hidden bg-[url('../public/svg/bg-purple-2.svg')]`
         }
       >
         {children}
