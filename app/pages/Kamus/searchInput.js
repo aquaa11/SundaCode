@@ -46,11 +46,9 @@ const SearchInput = ({ setNewDataKamus, setCurrentPage }) => {
   }
   useEffect(() => {
     setCurrentPage(1)
-    const delayed = () => {
-      debounce(() => {
+    debounce(() => {
         setNewDataKamus(sortedData);
-      }, 3000)
-    }
+    }, 3000)
   }, [sortedData, setNewDataKamus]);
 
   const handleInputChange = (event) => {
