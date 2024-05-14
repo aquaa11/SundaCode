@@ -8,7 +8,7 @@ import {
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
-const SearchInput = ({ setNewDataKamus,setCurrentPage }) => {
+const SearchInput = ({ setNewDataKamus, setCurrentPage }) => {
   const [isSort, setSort] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [isSortChecked, setSortChecked] = useState(false);
@@ -33,9 +33,24 @@ const SearchInput = ({ setNewDataKamus,setCurrentPage }) => {
       return filteredData;
     }
   }, [filteredData, isSortChecked]);
+  const debounce = () => {
+    let timer;
+    return function () {
+      const context = this;
+      const args = arguments;
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        func.apply(context, args);
+      }, delay)
+    }
+  }
   useEffect(() => {
     setCurrentPage(1)
-    setNewDataKamus(sortedData);
+    const delayed = () => {
+      debounce(() => {
+        setNewDataKamus(sortedData);
+      }, 3000)
+    }
   }, [sortedData, setNewDataKamus]);
 
   const handleInputChange = (event) => {
