@@ -33,7 +33,6 @@ const SearchInput = ({ setNewDataKamus,setCurrentPage }) => {
       return filteredData;
     }
   }, [filteredData, isSortChecked]);
-
   useEffect(() => {
     setCurrentPage(1)
     setNewDataKamus(sortedData);
