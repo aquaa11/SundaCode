@@ -44,7 +44,7 @@ function About() {
               </h1>
               <div className="grid md:grid-cols-2 gap-y-10 gap-x-4 max-w-screen-lg mx-auto my-10">
                 <div className="max-w-sm w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
-                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/images/Wafiyana.jpeg')]"></div>
+                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/svg/Wafiyana.jpeg')]"></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
                       <span
@@ -76,7 +76,7 @@ function About() {
                   </div>
                 </div>
                 <div className="max-w-sm w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
-                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/images/Dzika.jpeg')]"></div>
+                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/svg/Dzika.jpeg')]"></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
                       <span
@@ -108,7 +108,7 @@ function About() {
                   </div>
                 </div>
                 <div className="max-w-sm w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
-                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/images/Fadly.jpeg')]"></div>
+                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/svg/Fadly.jpeg')]"></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
                       <span
@@ -140,7 +140,7 @@ function About() {
                   </div>
                 </div>
                 <div className="max-w-xs w-full min-h-56 md:max-w-md md:flex mx-auto overflow-hidden rounded">
-                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/images/Rakha.jpeg')]"></div>
+                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/svg/Rakha.jpeg')]"></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
                       <span

@@ -80,11 +80,11 @@ export default function Home() {
               </Link>{" "}
             </button>
           </div>
-          <div className="bg-white h-[460px] sm:bg-center md:w-1/4  bg-[url('/images/poster-pamali.jpg')] bg-cover bg-bottom"></div>
+          <div className="bg-white h-[460px] sm:bg-center md:w-1/4  bg-[url('/svg/poster-pamali.jpg')] bg-cover bg-bottom"></div>
         </div>
         <div className="px-5 pt-6 pb-8 pb sm:py-6 sm:px-8 bg-white flex w-full max-w-screen-xl flex-col sm:flex-row mx-auto gap-5 sm:gap-10">
           <div className="bg-white w-full sm:w-1/2 h-80 sm:h-[22rem]">
-            <div className="w-full bg-[url(/images/kelompok-raizan.png)] brightness-50 hover:brightness-75 transition-all bg-cover bg-no-repeat h-full"></div>
+            <div className="w-full bg-[url(/svg/kelompok-raizan.png)] brightness-50 hover:brightness-75 transition-all bg-cover bg-no-repeat h-full"></div>
           </div>
           <div className="w-full sm:w-1/2">
             <h1 className="text-lg sm:text-2xl text-pink font-bold">
