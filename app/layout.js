@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
         <title>SundaCode</title>
         <link
           rel="SundaCode icon"
-          href="/svg/logo-sundacode.svg"
+          href="./svg/logo-sundacode.svg"
           type="image/x-icon"
         ></link>
       </head>
