@@ -11,7 +11,7 @@ export default function Footer() {
             SundaCode
           </a>
           <img
-            src="../public/svg/logo-sundacode.svg"
+            src="./svg/logo-sundacode.svg"
             alt="logo-sundacode"
             className="w-4 self-center"
           />
