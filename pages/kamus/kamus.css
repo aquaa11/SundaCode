@@ -1,0 +1,11 @@
+@import url('@/app/globals.css');
+
+.active {
+    background-color: var(--secondary);
+    color: var(--prmary);
+}
+#pagination button.active {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+  }
