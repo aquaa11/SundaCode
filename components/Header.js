@@ -50,7 +50,7 @@ export default function Header() {
             <span className="self-center mr-2 text-lg font-medium whitespace-nowrap">
               SundaCode
             </span>
-            <img src="/svg/logo-sundacode.svg" alt="logo-sundacode" className="w-4 self-center"/>
+            <img src="../public/svg/logo-sundacode.svg" alt="logo-sundacode" className="w-4 self-center"/>
           </a>
           <div
             id="hamburger-menu"

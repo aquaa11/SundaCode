@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div className="px-5 pt-6 pb-8 pb sm:py-6 sm:px-8 bg-white flex w-full max-w-screen-xl flex-col sm:flex-row mx-auto gap-5 sm:gap-10">
           <div className="bg-white p-2 border-pink border w-full sm:w-1/2 h-80 sm:h-[22rem]">
-            <div className="w-full bg-[url(/images/KamusSundacode.png)] bg-cover bg-no-repeat h-full"></div>
+            <div className="w-full bg-[url(../../public/images/KamusSundacode.png)] bg-cover bg-no-repeat h-full"></div>
           </div>
           <div className="w-full sm:w-1/2">
             <h1 className="text-lg sm:text-2xl text-pink font-bold">
@@ -80,7 +80,7 @@ export default function Home() {
               </Link>{" "}
             </button>
           </div>
-          <div className="bg-white h-[460px] sm:bg-center md:w-1/4  bg-[url('/images/poster-pamali.jpg')] bg-cover bg-bottom"></div>
+          <div className="bg-white h-[460px] sm:bg-center md:w-1/4  bg-[url('../../public//images/poster-pamali.jpg')] bg-cover bg-bottom"></div>
         </div>
         <div className="px-5 pt-6 pb-8 pb sm:py-6 sm:px-8 bg-white flex w-full max-w-screen-xl flex-col sm:flex-row mx-auto gap-5 sm:gap-10">
           <div className="bg-white w-full sm:w-1/2 h-80 sm:h-[22rem]">

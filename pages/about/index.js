@@ -44,7 +44,7 @@ function About() {
               </h1>
               <div className="grid md:grid-cols-2 gap-y-10 gap-x-4 max-w-screen-lg mx-auto my-10">
                 <div className="max-w-sm w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
-                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/images/Wafiyana.jpeg')]"></div>
+                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('../../public/images/Wafiyana.jpeg')]"></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
                       <span
@@ -76,7 +76,7 @@ function About() {
                   </div>
                 </div>
                 <div className="max-w-sm w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
-                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/images/Dzika.jpeg')]"></div>
+                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('../../public/images/Dzika.jpeg')]"></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
                       <span
@@ -108,7 +108,7 @@ function About() {
                   </div>
                 </div>
                 <div className="max-w-sm w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
-                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/images/Fadly.jpeg')]"></div>
+                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('../../public/images/Fadly.jpeg')]"></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
                       <span
@@ -140,7 +140,7 @@ function About() {
                   </div>
                 </div>
                 <div className="max-w-xs w-full min-h-56 md:max-w-md md:flex mx-auto overflow-hidden rounded">
-                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('/images/Rakha.jpeg')]"></div>
+                  <div className="w-full md:w-[47%] h-56 md:h-full bg-center mx-auto bg-cover bg-[url('../../public/images/Rakha.jpeg')]"></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
                       <span
@@ -174,56 +174,6 @@ function About() {
               </div>
             </div>
           </div>
-
-          {/* <div className="bg-white">
-            <div className="w-1/4 bg-blue-400 px-3 py-10">
-              <div className="size-20 mx-auto rounded-full bg-[url('/images/Wafiyana.jpeg')] bg-cover"></div>
-
-              <div className="pl-7">
-                <b className="text-pink text-xl font-bold">Wafiyana Ibrahim</b>{" "}
-                <br />
-                <br />
-                Sebagai ketua dari pembuatan projek ini dan desainer SundaCode
-                <br />
-              </div>
-            </div>
-            <div className="flex">
-              <div className="rectangle min-w-40 min-h-40 size:w-20 bg-[url('/images/Dzika.jpeg')] bg-cover"></div>
-              <div className="pl-7">
-                <b className="text-pink text-xl font-bold">
-                  Dzika Aziizil Julfikri
-                </b>
-                <br />
-                <br />
-                Sebagai ide dari pembuat projek Sunda Code ini dan pembuat page
-                beranda
-                <br />
-              </div>
-            </div>
-            <div className="flex">
-              <div className="rectangle min-w-40 min-h-40 md:size-20 bg-[url('/images/Fadly.jpeg')] bg-cover"></div>
-              <div className="pl-7">
-                <b className="text-pink text-xl font-bold">
-                  Adi Fadly Shaadiqin
-                </b>{" "}
-                <br />
-                <br />
-                Sebagai pembantu dan pembuat page about us dari projek SundaCode
-                ini
-                <br />
-              </div>
-            </div>
-            <div className="flex">
-              <div className="rectangle min-w-40 min-h-40 md:size-20 bg-[url('/images/Rakha.jpeg')] bg-cover"></div>
-              <div className="pl-7">
-                <b className="text-pink text-xl font-bold">Rakha Atthoilah</b>
-                <br />
-                <br />
-                Sebagai pembuat page drama di web sundacode ini
-                <br />
-              </div>
-            </div>
-          </div> */}
         </section>
       </main>
     </Layout>
