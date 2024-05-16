@@ -39,11 +39,11 @@ function About() {
         <section className="bg-primary py-3 md:py-4 mx-auto w-full mt-32 md:mt-48">
           <div className="w-full border-y border-white py-5">
             <div  className="max-w-screen-lg mx-auto ">
-              <h1 className="text-3xl inline bg-primary font-bold tracking-tight text-pink px-6 absolute left-1/2 -translate-x-1/2 -translate-y-20 border border-white py-1">
+              <h1 className="text-3xl inline bg-primary font-bold tracking-tight text-pink px-6 absolute left-1/2 -translate-x-1/2 -translate-y-24 md:-translate-y-20 border border-white py-1">
                 Our Team
               </h1>
               <div className="grid md:grid-cols-2 gap-y-10 gap-x-4 max-w-screen-lg mx-auto my-10">
-                <div className="max-w-xs w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
+                <div className="max-w-[16rem] w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
                   <div className="w-full md:w-[47%] h-64 md:h-full mx-auto"><img src="./Wafiyana.jpeg" className="w-full h-full bg-cover bg-center"/></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
@@ -75,7 +75,7 @@ function About() {
                     </div>
                   </div>
                 </div>
-                <div className="max-w-xs w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
+                <div className="max-w-[16rem] w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
                   <div className="w-full md:w-[47%] h-64 md:h-full mx-auto"> <img src="./Dzika.jpeg" className="w-full h-full bg-cover bg-center"/></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
@@ -107,7 +107,7 @@ function About() {
                     </div>
                   </div>
                 </div>
-                <div className="max-w-xs w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
+                <div className="max-w-[16rem] w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
                   <div className="w-full md:w-[47%] h-64 md:h-full mx-auto overflow-hidden"> <img src="./Fadly.jpeg" classList="w-full h-full bg-cover bg-center"/></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
@@ -139,7 +139,7 @@ function About() {
                     </div>
                   </div>
                 </div>
-                <div className="max-w-xs w-full min-h-56 md:max-w-md md:flex mx-auto overflow-hidden rounded">
+                <div className="max-w-[16rem] w-full min-h-56 md:max-w-md md:flex mx-auto overflow-hidden rounded">
                   <div className="w-full md:w-[47%] h-64 md:h-full mx-auto overflow-hidden"> <img src="./Rakha.jpeg" classList="w-full h-full bg-cover bg-center"/> </div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
