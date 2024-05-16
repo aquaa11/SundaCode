@@ -128,7 +128,7 @@ function Drama() {
               Babaturan
             </h1>
             <div className="flex flex-col max-w-screen-xl mx-auto md:flex-row gap-10 px-8 ">
-              <div className="bg-primary h-[300px] md:w-[40%]"><img className="w-full h-full bg-bottom bg-center" src="./kelompok-raizan.png"/></div>
+              <div className="bg-primary h-[240px] md:w-[40%]"><img className="w-full h-full bg-bottom bg-center" src="./kelompok-raizan.png"/></div>
               <div className=" md:w-[60%] font-light text-primary">
                 <h1 className="mb-2 text-pink text-2xl font-semibold">
                   Sinopsis
