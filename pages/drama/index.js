@@ -170,7 +170,7 @@ function Drama() {
                     <h1 className="mb-2 text-pink text-2xl font-semibold">
                       Pemeran
                     </h1>
-                    <ul className="ml-6 space-y-2 flex gap-x-1 flex-wrap text-gray-400 ">
+                    <ul className="ml-6 flex gap-x-1 flex-wrap text-gray-400 ">
                       
             
                           <li>Izzy Sandriana -</li>
