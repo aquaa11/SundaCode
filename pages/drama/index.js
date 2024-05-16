@@ -34,8 +34,8 @@ function Drama() {
               Pamali
             </h1>
             <div className="flex flex-col max-w-screen-xl mx-auto md:flex-row gap-10 px-8 ">
-              <div className="bg-white h-[460px] sm:bg-center md:w-1/4"><img className="w-full h-full bg-bottom bg-center" src="./poster-pamali.jpg"/></div>
-              <div className=" md:w-3/4 font-light text-white">
+              <div className="bg-white h-[460px] sm:h-full sm:bg-center md:w-[40%]"><img className="w-full h-full bg-bottom bg-center" src="./poster-pamali.jpg"/></div>
+              <div className=" md:w-[60%] font-light text-white">
                 <h1 className="mb-2 text-pink text-2xl font-semibold">
                   Sinopsis
                 </h1>
