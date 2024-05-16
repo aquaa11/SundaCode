@@ -92,7 +92,7 @@ function About() {
                         "Kau akan kehilangan bulan,karena sibuk menghitung bintang."
                       </p>
 
-                      <div className="mt-4 mb-2 flex gap-2 text-xl text-gray-500">">
+                      <div className="mt-4 mb-2 flex gap-2 text-xl text-gray-500">
                         <div>
                           <a href="https://www.instagram.com/dzikaazizil_/">
                             <FontAwesomeIcon icon={faInstagram} />
@@ -124,7 +124,7 @@ function About() {
                         "Uang bukan segalanya, tapi segalanya butuh uang."
                       </p>
 
-                      <div className="mt-4 mb-2 flex gap-2 text-xl text-gray-500">">
+                      <div className="mt-4 mb-2 flex gap-2 text-xl text-gray-500">
                         <div>
                           <a href="https://www.instagram.com/wafiyahahay/">
                             <FontAwesomeIcon icon={faInstagram} />
@@ -156,7 +156,7 @@ function About() {
                         "Pelan-pelan, ini lagi dibenerin satu-satu."
                       </p>
 
-                      <div className="mt-4 mb-2 flex gap-2 text-xl text-gray-500">">
+                      <div className="mt-4 mb-2 flex gap-2 text-xl text-gray-500">
                         <div>
                           <a href="https://www.instagram.com/rkhaathllh_/">
                             <FontAwesomeIcon icon={faInstagram} />
