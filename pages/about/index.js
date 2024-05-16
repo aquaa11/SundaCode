@@ -39,7 +39,7 @@ function About() {
         <section className="bg-primary py-3 md:py-4 mx-auto w-full mt-32 md:mt-48">
           <div className="w-full border-y border-white py-5">
             <div  className="max-w-screen-lg mx-auto ">
-              <h1 className="text-3xl inline bg-primary font-bold tracking-tight text-pink px-4 md:px-6 absolute left-1/2 -translate-x-1/2 -translate-y-28 md:-translate-y-20 border border-white py-1">
+              <h1 className="text-3xl inline bg-primary font-bold tracking-tight text-pink px-4 md:px-6 absolute left-1/2 -translate-x-1/2 md:-translate-y-20 border border-white py-1">
                 Our Team
               </h1>
               <div className="grid md:grid-cols-2 gap-y-10 gap-x-4 max-w-screen-lg mx-auto my-10">
