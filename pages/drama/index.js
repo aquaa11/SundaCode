@@ -10,7 +10,7 @@ function Drama() {
     <Layout>
       <main>
         <section>
-          <div className="px-5 py-56 md:text-center md:px-10 md:py-64 text-3xl md:text-4xl font-bold text-primary">
+          <div className="px-5 py-56 mb-5 md:text-center md:px-10 md:py-64 text-3xl md:text-4xl font-bold text-primary">
             <h1 className="tracking-tight leading-9">
               Ngenalkeun <br />
               Kebudayaan Sunda <br />
