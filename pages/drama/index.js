@@ -122,14 +122,14 @@ function Drama() {
             </div>
           </div>
         </section>
-        <section className="py-4 w-full bg-white mt-12">
+        <section className="py-4 w-full bg-white mt-16">
           <div className=" w-full border-y border-primary py-10">
             <h1 className="absolute left-1/2 -translate-x-1/2 -translate-y-[4.2rem] mb-6 bg-white border border-primary text-center py-1 px-4 md:px-6 text-pink text-2xl font-medium md:font-semibold">
               Babaturan
             </h1>
             <div className="flex flex-col max-w-screen-xl mx-auto md:flex-row gap-10 px-8 ">
-              <div className="bg-primary h-[400px] sm:bg-center md:w-1/3"><img className="w-full h-full bg-bottom bg-center" src="./kelompok-raizan.png"/></div>
-              <div className=" md:2/3 font-light text-primary">
+              <div className="bg-primary h-[300px] md:w-[40%]"><img className="w-full h-full bg-bottom bg-center" src="./kelompok-raizan.png"/></div>
+              <div className=" md:w-[60%] font-light text-primary">
                 <h1 className="mb-2 text-pink text-2xl font-semibold">
                   Sinopsis
                 </h1>
@@ -188,7 +188,7 @@ function Drama() {
                   <Link
                     href="https://youtu.be/dP0Ce1SiX4M?si=iNg_mK73Bu-B8P9H"
                     target="_blank"
-                    className="px-4 py-2 bg-primary border-2 font-bold border-pink hover:bg-pink hover:text-white transition-all text-pink  text-sm"
+                    className="px-4 py-2 bg-white border-2 font-bold border-pink hover:bg-pink hover:text-primary transition-all text-pink  text-sm"
                     aria-label="to yt"
                   >
                     Tonton Sekarang
