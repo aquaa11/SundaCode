@@ -43,8 +43,8 @@ function About() {
                 Our Team
               </h1>
               <div className="grid md:grid-cols-2 gap-y-10 gap-x-4 max-w-screen-lg mx-auto my-10">
-                <div className="max-w-xs w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
-                  <div className="w-full md:w-[47%] h-56 md:h-full mx-auto"><img src="./Wafiyana.jpeg" className="w-full h-full bg-cover bg-center"/></div>
+                <div className="max-w-xs md:max-w-sm w-full md:max-w-md md:flex mx-auto overflow-hidden rounded">
+                  <div className="w-full md:w-[47%] h-56 md:h-full mx-auto overflow-hidden"><img src="./Wafiyana.jpeg" className="w-full h-full bg-cover bg-center"/></div>
                   <div className="border-r md:w-[53%] border-b border-l rounded-es rounded-ee md:rounded-es-none md:rounded-se border-white  md:border-l-0 md:border-t  p-4">
                     <div>
                       <span
@@ -89,7 +89,7 @@ function About() {
                         Web Developer | Designer
                       </p>
                       <p className="text-gray-500 text-sm mt-4">
-                        "Kau akan kehilangan bulan,karena sibuk menghitung bintang"
+                        "Kau akan kehilangan bulan,karena sibuk menghitung bintang."
                       </p>
 
                       <div className="mt-4 mb-2 flex gap-2 text-xl text-primary">
@@ -121,7 +121,7 @@ function About() {
                         Web Developer | Designer
                       </p>
                       <p className="text-gray-500 text-sm mt-4">
-                        "Uang bukan segelanya tanpi segalanya butuh uang."
+                        "Uang bukan segalanya, tapi segalanya butuh uang."
                       </p>
 
                       <div className="mt-4 mb-2 flex gap-2 text-xl text-primary">
