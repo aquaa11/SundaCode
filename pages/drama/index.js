@@ -52,7 +52,7 @@ function Drama() {
                 <div className="flex flex-wrap gap-y-6 gap-x-16 md:text-base text-sm">
                   <div>
                     <h1 className="mb-2 text-pink text-2xl font-semibold">
-                      Production
+                      Produksi
                     </h1>
                     <ul className="list-disc ml-6 space-y-2">
                       <li>
