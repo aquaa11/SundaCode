@@ -33,7 +33,9 @@ export default function Home() {
         </div>
         <div className="px-5 pt-6 pb-8 pb sm:py-6 sm:px-8 bg-white flex w-full max-w-screen-xl flex-col sm:flex-row mx-auto gap-5 sm:gap-10">
           <div className="bg-white p-2 border-pink border w-full sm:w-1/2 h-80 sm:h-[22rem]">
-            <div className="w-full bg-[url('/KamusSundacode.png')] bg-cover bg-no-repeat h-full"></div>
+            <div className="w-full">
+              <img className="bg-cover w-full bg-center sm:bg-center w-full h-full" src="./KamusSundacode.png"></img>
+              </div>
           </div>
           <div className="w-full sm:w-1/2">
             <h1 className="text-lg sm:text-2xl text-pink font-bold">
@@ -80,7 +82,9 @@ export default function Home() {
         </div>
         <div className="px-5 pt-6 pb-8 pb sm:py-6 sm:px-8 bg-white flex w-full max-w-screen-xl flex-col sm:flex-row mx-auto gap-5 sm:gap-10">
           <div className="bg-white w-full sm:w-1/2 h-80 sm:h-[22rem]">
-            <div className="w-full bg-[url('/kelompok-raizan.png')] brightness-50 hover:brightness-75 transition-all bg-cover bg-no-repeat h-full"></div>
+            <div className="w-full brightness-50 hover:brightness-75 transition-all">
+                  <img className=" bg-cover bg-bottom sm:bg-center w-full h-full" src="./kelompok-raizan.jpg"></img>
+                  </div>
           </div>
           <div className="w-full sm:w-1/2">
             <h1 className="text-lg sm:text-2xl text-pink font-bold">
