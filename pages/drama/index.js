@@ -159,7 +159,7 @@ function Drama() {
                       <li>
                         Editor :
                         <ul className=" ml-4 flex flex-wrap gap-x-1 text-gray-400">
-                          <li>M Haikal Arif</li>
+                          <li>M Haikal 'Arief -</li>
                           <li>Izzy Sandria Rahman</li>
         
                         </ul>
@@ -170,16 +170,15 @@ function Drama() {
                     <h1 className="mb-2 text-pink text-2xl font-semibold">
                       Pemeran
                     </h1>
-                    <ul className="list-disc ml-6 space-y-2">
-                      <li>
-                        Siswa :
-                        <ul className="ml-4 flex gap-x-1 flex-wrap lg:max-w-56 text-gray-400">
+                    <ul className="list-disc ml-6 space-y-2 flex gap-x-1 flex-wrap text-gray-400 ">
+                      
+            
                           <li>Izzy Sandriana -</li>
-                          <li>M Haikal'Arief -</li>
-                          <li>Raizan Khairul A-</li>
+                          <li>M Haikal 'Arief -</li>
+                          <li>Raizan Khairul A -</li>
                           <li>Aqell Razza Hafiz</li>
                           
-                        </ul>
+                
                       </li>
                     </ul>
                   </div>
