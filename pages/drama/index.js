@@ -122,6 +122,82 @@ function Drama() {
             </div>
           </div>
         </section>
+        <section className="py-4 w-full bg-white mt-12">
+          <div className=" w-full border-y border-primary py-10">
+            <h1 className="absolute left-1/2 -translate-x-1/2 -translate-y-[4.2rem] mb-6 bg-white border border-primary text-center py-1 px-4 md:px-6 text-pink text-2xl font-medium md:font-semibold">
+              Babaturan
+            </h1>
+            <div className="flex flex-col max-w-screen-xl mx-auto md:flex-row gap-10 px-8 ">
+              <div className="bg-primary h-[300px] sm:bg-center md:w-1/4"><img className="w-full h-full bg-bottom bg-center" src="./kelompok-raizan.jpg"/></div>
+              <div className=" md:w-3/4 font-light text-primary">
+                <h1 className="mb-2 text-pink text-2xl font-semibold">
+                  Sinopsis
+                </h1>
+                <p className="mb-5 text-gray-400 md:text-base text-sm">
+                  Nyaritakeun ngeunaan babaturan, anu eusina ngeunaan masalah jeung kajadian lucu anu lumangsung, sarta ngeunaan kahadean jeung hal unik dina sosobatan
+                </p>
+                <div className="flex flex-wrap gap-y-6 gap-x-16 md:text-base text-sm">
+                  <div>
+                    <h1 className="mb-2 text-pink text-2xl font-semibold">
+                      Produksi
+                    </h1>
+                    <ul className="list-disc ml-6 space-y-2">
+                      <li>
+                        Penulis Naskah :
+                        <ul className="ml-4 flex flex-wrap gap-x-1 text-gray-400">
+                          <li>Raizan Khairul Anam</li>
+                    
+                        </ul>
+                      </li>
+                      <li>
+                        Kameramen :
+                        <ul className="ml-4 flex flex-wrap gap-x-1 text-gray-400">
+                          <li>Izzy Sandriana Rahman</li>
+                          
+                        </ul>
+                      </li>
+                      <li>
+                        Editor :
+                        <ul className=" ml-4 flex flex-wrap gap-x-1 text-gray-400">
+                          <li>M Haikal Arif</li>
+                          <li>Izzy Sandria Rahman</li>
+        
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h1 className="mb-2 text-pink text-2xl font-semibold">
+                      Pemeran
+                    </h1>
+                    <ul className="list-disc ml-6 space-y-2">
+                      <li>
+                        Siswa :
+                        <ul className="ml-4 flex gap-x-1 flex-wrap lg:max-w-56 text-gray-400">
+                          <li>Izzy Sandriana -</li>
+                          <li>M Haikal'Arief -</li>
+                          <li>Raizan Khairul A-</li>
+                          <li>Aqell Razza Hafiz</li>
+                          
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <button aria-label="to yt" className="mt-12">
+                  <Link
+                    href="https://youtu.be/dP0Ce1SiX4M?si=iNg_mK73Bu-B8P9H"
+                    target="_blank"
+                    className="px-4 py-2 bg-primary border-2 font-bold border-pink hover:bg-pink hover:text-white transition-all text-pink  text-sm"
+                    aria-label="to yt"
+                  >
+                    Tonton Sekarang
+                  </Link>{" "}
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );
