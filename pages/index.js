@@ -1,6 +1,12 @@
+"use client"
 import React from "react";
 import Link from "next/link";
 export default function Home() {
+  useEffect(() => {
+    if (!window.location.pathname.endsWith("/")) {
+      window.history.pushState(null, "", window.location.pathname + "/");
+    }
+  }, []);
   const handleExplore = () => {
     window.scrollTo({ top: 600, behavior: "smooth" });
   };
