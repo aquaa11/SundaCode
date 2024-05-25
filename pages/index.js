@@ -30,8 +30,8 @@ export default function Home() {
         </div>
         <div className="px-5 pt-6 pb-8 pb sm:py-6 sm:px-8 bg-white flex w-full max-w-screen-xl flex-col sm:flex-row mx-auto gap-5 sm:gap-10">
           <div className="bg-white p-2 border-pink border w-full sm:w-1/2 h-80 sm:h-[22rem] overflow-hidden">
-            <img src="./../public/KamusSundacode.png" alt="banner-1"></img>
-            <img src="/../public/KamusSundacode.png" alt="banner-1"></img>
+            <img src="KamusSundacode.png" alt="banner-1"></img>
+            <img src="KamusSundacode.png" alt="banner-1"></img>
           </div>
           <div className="w-full sm:w-1/2">
             <h1 className="text-lg sm:text-2xl text-pink font-bold">
@@ -73,7 +73,7 @@ export default function Home() {
             </button>
           </div>
           <div className="overflow-hidden bg-white sm:bg-center md:w-1/4">
-            <img src="./public/poster-pamali.jpg" alt="banner-2"></img>
+            <img src="poster-pamali.jpg" alt="banner-2"></img>
           </div>
         </div>
         <div className="px-5 py-6 sm:px-8 bg-white flex w-full max-w-screen-xl flex-col sm:flex-row mx-auto gap-5 sm:gap-10">
