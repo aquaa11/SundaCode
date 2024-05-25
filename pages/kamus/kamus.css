@@ -1,0 +1,14 @@
+:root {
+  --primary: #140021;
+  --secondary: #ffffff;
+  --pink: #9900ff;
+}
+.active {
+  background-color: var(--secondary);
+  color: var(--prmary);
+}
+#pagination button.active {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
