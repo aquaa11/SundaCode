@@ -1,13 +1,6 @@
-"use client"
 import React from "react";
-import { useEffect } from "react";
 import Link from "next/link";
 export default function Home() {
-  useEffect(() => {
-    if (!window.location.pathname.endsWith("/")) {
-      window.history.pushState(null, "", window.location.pathname + "/");
-    }
-  }, []);
   const handleExplore = () => {
     window.scrollTo({ top: 600, behavior: "smooth" });
   };
@@ -37,8 +30,8 @@ export default function Home() {
         </div>
         <div className="px-5 pt-6 pb-8 pb sm:py-6 sm:px-8 bg-white flex w-full max-w-screen-xl flex-col sm:flex-row mx-auto gap-5 sm:gap-10">
           <div className="bg-white p-2 border-pink border w-full sm:w-1/2 h-80 sm:h-[22rem] overflow-hidden">
-            <img src="KamusSundacode.png" alt="banner-1"></img>
-            <img src="KamusSundacode.png" alt="banner-1"></img>
+            <img src="./KamusSundacode.png" alt="banner-1"></img>
+            <img src="./KamusSundacode.png" alt="banner-1"></img>
           </div>
           <div className="w-full sm:w-1/2">
             <h1 className="text-lg sm:text-2xl text-pink font-bold">
@@ -80,13 +73,13 @@ export default function Home() {
             </button>
           </div>
           <div className="overflow-hidden bg-white sm:bg-center md:w-1/4">
-            <img src="poster-pamali.jpg" alt="banner-2"></img>
+            <img src="./poster-pamali.jpg" alt="banner-2"></img>
           </div>
         </div>
         <div className="px-5 py-6 sm:px-8 bg-white flex w-full max-w-screen-xl flex-col sm:flex-row mx-auto gap-5 sm:gap-10">
           <div className="bg-white w-full sm:w-1/2">
             <div className="w-full brightness-50 hover:brightness-75 transition-all overflow-hidden">
-              <img src="kelompok-raizan.png" alt="banner-3"></img>
+              <img src="./kelompok-raizan.png" alt="banner-3"></img>
             </div>
           </div>
           <div className="w-full sm:w-1/2">
