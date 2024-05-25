@@ -70,10 +70,10 @@ export default function Header() {
             >
               <li>
                 <span>
-                  <Link href="./" aria-label="to Home Page">
+                  <a href="./" aria-label="to Home Page">
                     <FontAwesomeIcon icon={faHouse} className="text-xs mr-2" />
                     Beranda
-                  </Link>
+                  </a>
                 </span>
               </li>
               <li>
